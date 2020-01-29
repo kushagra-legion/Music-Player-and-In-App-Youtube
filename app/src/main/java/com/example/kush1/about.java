@@ -17,6 +17,7 @@ import android.widget.VideoView;
 
 public class about extends AppCompatActivity {
 
+    //bvwolvbwbvwbvwvnbpwb
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
