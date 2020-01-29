@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".about">
+
+    <VideoView
+        android:id="@+id/about"
+        android:layout_width="408dp"
+        android:layout_height="326dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="174dp"
+        android:layout_height="60dp"
+        android:text="Comments"
+        android:textSize="30sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.016"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/about"
+        app:layout_constraintVertical_bias="0.095" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="93dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="40dp"
+        android:text="1314"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/textView3"
+        app:layout_constraintTop_toBottomOf="@+id/about" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="377dp"
+        android:layout_height="317dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="Moriroku Technology India Private Limited is a Private incorporated on 19 September 1996. It is classified as Non-govt company and is registered at Registrar of Companies, Delhi. Its authorized share capital is Rs. 696,200,000 and its paid up capital is Rs. 505,931,904. It is inolved in Manufacture of motor vehicles  Moriroku Technology India Private Limited's Annual General Meeting (AGM) was last held on 02 July 2019 and as per records from Ministry of Corporate Affairs (MCA), its balance sheet was last filed on 31 March 2019.  Directors of Moriroku Technology India Private Limited are Yusuke Ikuma, Naohiko Kawamura, Shalabh Sangal, Kazuo Hashimoto, .  Moriroku Technology India Private Limited's Corporate Identification Number is (CIN) U34100DL1996PTC082080 and its registration number is 82080.Its Email address is account@moriroku.co.in and its registered address is 411 MEGHDOOT BUILDING,94 NEHRU PLACE NEW DELHI New Delhi DL 110019 IN "
+        android:textSize="13sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.421"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:layout_constraintVertical_bias="0.2" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="89dp"
+        android:layout_height="46dp"
+        android:onClick="notib"
+        android:text="Button"
+        app:layout_constraintBottom_toTopOf="@+id/textView5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView4"
+        app:layout_constraintTop_toTopOf="@+id/textView3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
