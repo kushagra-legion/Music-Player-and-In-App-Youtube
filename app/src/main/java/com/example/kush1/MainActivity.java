@@ -10,7 +10,7 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
-    //database db;
+    //database db mein ;
    public static final String key="10001";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
